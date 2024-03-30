@@ -46,7 +46,8 @@ export const Products = () => {
     try {
       const { data } = await axios({
         method: "GET",
-        baseURL: import.meta.env.VITE_BASE_URL,
+        // baseURL: import.meta.env.VITE_BASE_URL,
+        baseURL:"https://server-ecommerce-8nzl.onrender.com",
         url: "/products",
         headers: { "Content-Type": "application/json" },
         params: categoryObj

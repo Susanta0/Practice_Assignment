@@ -37,7 +37,8 @@ export const ProductPage = () => {
     try {
       const { data } = await axios({
         method: "GET",
-        baseURL: import.meta.env.VITE_BASE_URL,
+        // baseURL: import.meta.env.VITE_BASE_URL,
+        baseURL:"https://server-ecommerce-8nzl.onrender.com",
         url: `/products/${product_id}`,
         headers: { "Content-Type": "application/json" },
       });
