@@ -1,0 +1,20 @@
+{
+    "todos":[
+        {
+            "id":1,
+            "name":"Susanta",
+            "email":"susanta721467@gmail.com",
+            "phone":"9999999999",
+            "task":"Redux",
+            "status":false
+        },
+        {
+            "id":2,
+            "name":"Aman",
+            "email":"aman764127@gmail.com",
+            "phone":"11111111111",
+            "task":"Frontend",
+            "status":true
+        }
+    ]
+}
